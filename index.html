@@ -4,10 +4,21 @@
 
 <head>
 	<script src="jquery.js"></script>
-</head>
-
-<body>
+	<script>
+		$(function() {
+		
+			console.log('working');
+			
+			$(document).on('click', 'button', function(e) {
+				console.log('working');
+			
+			});
+			
+		});	 
+	 </script>
 </body>
+	<button>log in</button>
 
+</button>
 
 </html>
